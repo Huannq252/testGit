@@ -18,6 +18,8 @@ public class demo extends HttpServlet {
 		// TODO Auto-generated method stub
 		request.getRequestDispatcher("/views/tamgiac.jsp").forward(request, response);
 		
+		//thêm phần ghi chú
+		String x;
 	}
 	
 	@Override
