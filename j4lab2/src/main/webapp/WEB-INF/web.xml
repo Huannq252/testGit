@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>tamgiacServlet</display-name>
+    <servlet-name>tamgiacServlet</servlet-name>
+    <servlet-class>tamgiacServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tamgiacServlet</servlet-name>
+    <url-pattern>/tamgiacServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>j4lab2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>demo</display-name>
+    <servlet-name>demo</servlet-name>
+    <servlet-class>j4lab2.demo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DangkiServlet</display-name>
+    <servlet-name>DangkiServlet</servlet-name>
+    <servlet-class>j4lab2.DangkiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DangkiServlet</servlet-name>
+    <url-pattern>/DangkiServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
